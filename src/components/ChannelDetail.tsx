@@ -40,6 +40,10 @@ const ChannelDetail = () => {
         />
         <ChannelCard channel={channelDetail} />
       </Box>
+      <Box sx={{ display: "flex", p: 2 }}>
+        <Box sx={{ mr: { sm: "100px" } }} />
+        <Videos videos={videos} />
+      </Box>
     </Box>
   );
 };

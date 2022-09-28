@@ -21,7 +21,7 @@ const ChannelCard = ({ channel, channelVideo }: IProps) => {
         width: { xs: "356px", md: "320px" },
         height: "326px",
         margin: "auto",
-        marginTop: channel && "-90px",
+        marginTop: channel && "-115px",
       }}
     >
       <Link
