@@ -55,16 +55,6 @@ const ChannelCard = ({ channel, channelVideo }: IProps) => {
             {channel ? channel?.snippet?.title : channelVideo?.snippet.title}{" "}
             <CheckCircle sx={{ fontSize: 14, color: "gray", ml: "px" }} />
           </Typography>
-          {channel?.statistics?.subscriberCount && (
-            <Typography
-              sx={{ fontSize: "15px", fontWeight: 500, color: "gray" }}
-            >
-              {parseInt(channel?.statistics?.subscriberCount).toLocaleString(
-                "en-US"
-              )}{" "}
-              Subscribers
-            </Typography>
-          )}
         </CardContent>
       </Link>
     </Box>
