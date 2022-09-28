@@ -12,7 +12,7 @@ Ti install the dependencies. Once installed, run
 
 and open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can also check the live project [here](https://youtube-clone-umber-two.vercel.app/)
+You can also check the live project [here](https://youtubeclone-fv.netlify.app/)
 
 ## Libraries
 
