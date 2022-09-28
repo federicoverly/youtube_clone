@@ -13,7 +13,7 @@ const Videos = ({ videos, direction }: IProps) => {
     <Stack
       direction={direction || "row"}
       flexWrap="wrap"
-      justifyContent="start"
+      justifyContent="flex-start"
       gap={2}
     >
       {videos.map((video, idx) => (
