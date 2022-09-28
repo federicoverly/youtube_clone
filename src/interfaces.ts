@@ -55,6 +55,8 @@ export interface IChannel {
   id: string;
   kind: string;
   snippet: {
+    channelId: string;
+    channelTitle: string;
     country: string;
     customUrl: string;
     description: string;
@@ -87,5 +89,6 @@ export interface IChannel {
     subscriberCount: string;
     videoCount: string;
     viewCount: string;
+    likeCount: string;
   };
 }

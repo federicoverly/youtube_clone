@@ -5,11 +5,17 @@ import { ChannelCard, VideoCard } from "./index";
 
 interface IProps {
   videos: IVideo[];
+  direction?: "column";
 }
 
-const Videos = ({ videos }: IProps) => {
+const Videos = ({ videos, direction }: IProps) => {
   return (
-    <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}>
+    <Stack
+      direction={direction || "row"}
+      flexWrap="wrap"
+      justifyContent="start"
+      gap={2}
+    >
       {videos.map((video, idx) => (
         <Box key={idx}>
           {video.id.videoId && <VideoCard video={video} />}
