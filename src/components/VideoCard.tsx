@@ -22,7 +22,7 @@ const VideoCard = ({ video }: IProps) => {
   return (
     <Card
       sx={{
-        width: { md: "320px", xs: "100%" },
+        width: { xs: "100%", sm: "358px", md: "320px" },
         boxShadow: "none",
         borderRadius: 0,
       }}
@@ -30,7 +30,7 @@ const VideoCard = ({ video }: IProps) => {
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
         <CardMedia
           image={snippet?.thumbnails?.high?.url}
-          sx={{ width: 358, height: 180 }}
+          sx={{ width: { xs: "100%", sm: "358px", md: "320px" }, height: 180 }}
         />
       </Link>
       <CardContent sx={{ backgroundColor: "#1E1E1E", height: "106px" }}>
