@@ -13,7 +13,7 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }: IProps) => {
       direction="row"
       sx={{
         overflowY: "auto",
-        hight: { sx: "auto", md: "95%" },
+        height: { sx: "auto", md: "95%" },
         flexDirection: { md: "column" },
       }}
     >
